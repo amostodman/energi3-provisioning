@@ -2204,6 +2204,10 @@ After: ${GETTOTALBALANCE} " "" "${DISCORD_WEBHOOK_USERNAME}" "${DISCORD_WEBHOOK_
   # Larger amount has been moved off this wallet.
   elif [[ $( echo "${BALANCE_DIFF} < -1" | bc -l ) -gt 0 ]]
   then
+
+    # Amos hack: save balance diff to db
+    source /var/multi-masternode-data/nodebot/nodemon-balance.sh
+
     SEND_WARNING "__${USRNAME} ${DAEMON_BIN}__
 Balance has decreased by over 1 ${TICKER_NAME} 
 Difference: ${BALANCE_DIFF}
@@ -2212,6 +2216,10 @@ New Balance: ${GETTOTALBALANCE}" "" "${DISCORD_WEBHOOK_USERNAME}" "${DISCORD_WEB
   # Small amount has been moved.
   elif [[ $( echo "${BALANCE_DIFF} < 1" | bc -l ) -gt 0 ]]
   then
+
+    # Amos hack: save balance diff to db
+    source /var/multi-masternode-data/nodebot/nodemon-balance.sh
+    
     SEND_INFO "__${USRNAME} ${DAEMON_BIN}__
 Small amount of ${TICKER_NAME} has been transfered 
 Difference: ${BALANCE_DIFF}
@@ -2229,6 +2237,10 @@ New Balance: ${GETTOTALBALANCE}" "" "${DISCORD_WEBHOOK_USERNAME}" "${DISCORD_WEB
       continue
 
     else
+
+      # Amos hack: save balance diff to db
+      source /var/multi-masternode-data/nodebot/nodemon-balance.sh
+
       SEND_SUCCESS "__${USRNAME} ${DAEMON_BIN}__
 Larger amount of ${TICKER_NAME} has been transfered 
 Difference: ${BALANCE_DIFF}

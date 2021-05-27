@@ -13,7 +13,7 @@
 : '
 # Run the script to get started:
 ```
-bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/energicryptocurrency/energi3-provisioning/master/scripts/linux/missing_mn_rewards.sh0)" '' START_BLOCK END_BLOCK MN_ADDR ; source ~/.bashrc
+bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/energicryptocurrency/energi3-provisioning/master/scripts/linux/missing_mn_rewards.sh)" '' START_BLOCK END_BLOCK MN_ADDR ; source ~/.bashrc
 
 Script arguments:
     START_BLOCK  : Block number to start from
