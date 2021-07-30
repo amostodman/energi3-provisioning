@@ -6,7 +6,7 @@ This is a fork of the energi3-provisioning repository with some updates that ext
 
 Charts Screenshot:
 
-[<img alt="Amos Todman's EnergiRewardsCharts-screenshot" src="https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png" width="250"/>](https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png)
+[<img alt="Amos Todman's EnergiRewardsCharts-screenshot" src="https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png" width="300"/>](https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png)
 
 ---
 Original readme:
