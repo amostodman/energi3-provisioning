@@ -2,7 +2,7 @@
 
 This is a fork of the energi3-provisioning repository with some updates that extract additional data for the node monitor report of the Energi Core Node.
 
-[See example site using the data](link)
+[See example site using the data to create charts for easy viewing](https://amostodman.github.io/ATRewardsCharts-NRG/)
 
 ---
 Original readme:
