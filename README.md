@@ -1,3 +1,18 @@
+# Amos's fork of the energi3-provisioning repository
+
+This is a fork of the energi3-provisioning repository with some updates that extract additional data for the node monitor report of the Energi Core Node.
+
+[See example site using the data to create charts for easy viewing](https://amostodman.github.io/ATRewardsCharts-NRG/)
+
+[How to add this to your node](https://github.com/amostodman/ATRewardsCharts-NRG#requirements--instructions-to-add-to-your-node)
+
+Charts Screenshot:
+
+[<img alt="Amos Todman's EnergiRewardsCharts-screenshot" src="https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png" width="300"/>](https://amostodman.github.io/ATRewardsCharts-NRG/EnergiRewardsCharts-screenshot.png)
+
+---
+Original readme:
+
 # energi3-provisioning
 
 This repository has provisioning scripts as well as startup scrits for Energi Core Node
