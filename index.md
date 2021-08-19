@@ -4,7 +4,7 @@ This is a fork of the energi3-provisioning repository with some updates that ext
 
 [See example site using the data to create charts for easy viewing](https://amostodman.github.io/ATRewardsCharts-NRG/)
 
-[Add to your node](https://github.com/amostodman/ATRewardsCharts-NRG#requirements--instructions-to-add-to-your-node)
+[How to add to your node](https://github.com/amostodman/ATRewardsCharts-NRG#requirements--instructions-to-add-to-your-node)
 
 Charts Screenshot:
 
